@@ -1,0 +1,17 @@
+// R pipe operator keybinding for macOS and Windows
+    {
+        "key": "cmd+shift+m",
+        "command": "type",
+        "args": {
+            "text": " |> "
+        },
+        "when": "(editorTextFocus && editorLangId == 'r' || terminalFocus) && isMac"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "type",
+        "args": {
+            "text": " |> "
+        },
+        "when": "(editorTextFocus && editorLangId == 'r' || terminalFocus) && isWindows"
+    },
