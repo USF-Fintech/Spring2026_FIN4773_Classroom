@@ -1,5 +1,4 @@
 library(tidyverse)
-data(iris)
 
 iris |>
   select(Sepal.Length, Species) |>

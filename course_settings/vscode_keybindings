@@ -1,3 +1,4 @@
+[
 // R pipe operator keybinding for macOS and Windows
     {
         "key": "cmd+shift+m",
@@ -15,3 +16,4 @@
         },
         "when": "(editorTextFocus && editorLangId == 'r' || terminalFocus) && isWindows"
     },
+]
